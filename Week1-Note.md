@@ -35,7 +35,7 @@ Credentialed accounts:
 gcloud创建实例
 gcloud compute instances create gcelab2 --machine-type n1-standard-2 --zone us-central1-f
 ```
-# 命令详细说明
+#### 命令详细说明
 
 * gcloud compute 用于通过比 Compute Engine API 更简单的方式来管理 Compute Engine 资源。
 
