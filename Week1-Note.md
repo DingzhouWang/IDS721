@@ -10,3 +10,4 @@
 | roles/owner   | All editor permissions and permissions for the following actions: manage roles and permissions for a project and all resources within the project; set up billing for a project. |
 
 ### gcloud
+'gcloud auth list'
