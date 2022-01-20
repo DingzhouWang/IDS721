@@ -126,3 +126,23 @@ kubectl get service
 删除集群
 gcloud container clusters delete [集群名称]
 ```
+
+
+### 其他操作
+可以在虚拟机上安装 NGINX 网络服务器。这是全球最受欢迎的网络服务器之一，可用来为您的虚拟机建立连接。
+
+```
+如需获取 SSH 终端的 root 访问权限，请运行以下命令：
+sudo su -
+
+以 root 用户的身份更新您的操作系统：
+apt-get update
+
+安装 NGINX：
+apt-get install nginx -y
+
+确认 NGINX 正在运行：
+ps auwx | grep nginx
+
+然后可以通过创建虚拟机实例的EXTERNAL_IP访问(如果没有nginx则无法访问外部IP)
+```
