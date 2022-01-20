@@ -10,4 +10,12 @@
 | roles/owner   | All editor permissions and permissions for the following actions: manage roles and permissions for a project and all resources within the project; set up billing for a project. |
 
 ### gcloud
-`gcloud auth list`
+
+```
+输入
+gcloud auth list
+列出有效的帐号名称：
+输出
+Credentialed accounts:
+ - <我的帐号>@<我的域名>.com (active)
+```
