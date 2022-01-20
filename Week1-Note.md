@@ -146,3 +146,6 @@ ps auwx | grep nginx
 
 然后可以通过创建虚拟机实例的EXTERNAL_IP访问(如果没有nginx则无法访问外部IP)
 ```
+
+### 设置网络及 HTTP 负载平衡器
+[设置网络及 HTTP 负载平衡器](https://www.qwiklabs.com/focuses/12007?parent=catalog)
