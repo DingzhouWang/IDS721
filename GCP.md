@@ -1,6 +1,6 @@
 # GCP Note
 
-### gcloud
+
 
 ### gsutil 
 * create bucket
