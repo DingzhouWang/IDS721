@@ -2,10 +2,11 @@
 
 ### IAM 
 除了云计算服务以外，Google Cloud 还提供了一组权限和角色，用以界定哪些人有权访问哪些资源
-|  角色名称   | 权限  |
-|  ----  | ----  |
-| roles/viewer  | 有权执行不影响状态的只读操作，如查看（但不能修改）现有资源或数据。 |
-| roles/editor  | 拥有所有查看者权限，此外还有权执行会修改状态的操作（如更改现有资源）。 |
-| roles/owner  | 拥有所有编辑者权限，以及执行以下操作的权限：管理项目的角色和权限，以及项目中的所有资源；为项目设置结算信息。 |
+
+|  Role Name    | Permissions                                                                                                                                                                      |
+|  ----         | ----                                                                                                                                                                             |
+| roles/viewer  | Permissions for read-only actions that do not affect state, such as viewing (but not modifying) existing resources or data.                                                      |
+| roles/editor  | All viewer permissions, plus permissions for actions that modify state, such as changing existing resources.                                                                     |
+| roles/owner   | All editor permissions and permissions for the following actions: manage roles and permissions for a project and all resources within the project; set up billing for a project. |
 
 ### gcloud
