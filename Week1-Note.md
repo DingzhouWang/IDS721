@@ -31,6 +31,20 @@ Credentialed accounts:
  - <我的帐号>@<我的域名>.com (active)
 ```
 
+```
+gcloud创建实例
+gcloud compute instances create gcelab2 --machine-type n1-standard-2 --zone us-central1-f
+```
+
+```
+查看所有默认值
+gcloud compute instances create --help
+```
+
+```
+gcloud链接ssh
+gcloud compute ssh gcelab2 --zone us-central1-f
+```
 
 ### region & zone
 region -> 区域
