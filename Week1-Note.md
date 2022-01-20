@@ -35,6 +35,19 @@ Credentialed accounts:
 gcloud创建实例
 gcloud compute instances create gcelab2 --machine-type n1-standard-2 --zone us-central1-f
 ```
+# 命令详细说明
+
+* gcloud compute 用于通过比 Compute Engine API 更简单的方式来管理 Compute Engine 资源。
+
+* instances create 用于创建新实例。
+
+* gcelab2 为虚拟机的名称。
+
+* --machine-type 标志用于将机器类型指定为 n1-standard-2。
+
+* --zone 标志用于指定虚拟机的创建位置。
+
+* 如果您省略 --zone 标志，gcloud 工具可根据您的默认属性推断出您所需的可用区。如果您未在 create 命令中指定其他必需的实例设置（例如 machine type 和 image），则系统会将它们设为默认值。
 
 ```
 查看所有默认值
@@ -44,6 +57,20 @@ gcloud compute instances create --help
 ```
 gcloud链接ssh
 gcloud compute ssh gcelab2 --zone us-central1-f
+```
+
+```
+设置默认计算可用区
+gcloud config set compute/zone us-central1-a
+gcloud config set compute/region us-central1-a
+查看
+gcloud config get-value compute/zone
+gcloud config get-value compute/region
+```
+
+```
+查看项目信息
+gcloud compute project-info describe --project <您的项目 ID>
 ```
 
 ### region & zone
