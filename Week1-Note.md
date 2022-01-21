@@ -149,3 +149,11 @@ ps auwx | grep nginx
 
 ### 设置网络及 HTTP 负载平衡器
 [设置网络及 HTTP 负载平衡器](https://www.qwiklabs.com/focuses/12007?parent=catalog)
+
+
+
+
+
+# Others 
+* [Week1 Demo](https://github.com/DingzhouWang/IDS721/blob/main/Week1-HelloWorldDemo.md)
+* [CD](https://github.com/DingzhouWang/gcp-flask-ml-deploy-CD-Example/blob/master/README.md)
